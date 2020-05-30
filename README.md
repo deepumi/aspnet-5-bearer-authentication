@@ -97,3 +97,5 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+### NOTE:
+Using this approach, you wouldn’t need to use any middleware like use.Authentication() or [Authorizaion] attribute on API controllers.
