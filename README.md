@@ -58,7 +58,7 @@ public sealed class BearerPolicyEvaluator : IPolicyEvaluator
 
 ```
 
-## Implement IAsyncAuthorizationFilter interace.
+## Implement IAsyncAuthorizationFilter interface.
 
 ```csharp
 public sealed class BearerAuthorizeFilter : IAsyncAuthorizationFilter
